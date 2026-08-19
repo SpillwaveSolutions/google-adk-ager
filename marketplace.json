@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "google-adk-ager-marketplace",
+  "owner": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
+  "plugins": [
+    {
+      "name": "google-adk-ager",
+      "source": "./",
+      "description": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin) \u2014 LlmAgent (non-graph) and Workflow graph (ADK 2.0).",
+      "version": "0.1.0"
+    }
+  ]
+}

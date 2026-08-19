@@ -1,0 +1,13 @@
+---
+description: AGER translator rules for Cursor agents
+alwaysApply: true
+---
+
+You are compiling a validated AGER/OKF AgentGraph. You are not authoring one.
+
+1. Prefer `python3 scripts/emit.py --bundle <AGER> --out <OUT>`. Do not freehand the tree.
+2. Do not invent agents, tools, or edges that are not in the graph.
+3. Honor LoopPolicy check order: goal, deadline, price, max_turns, no_progress.
+4. If `okf-agent-graph` / `ager-validate` is available, validate first. If it fails, stop.
+5. Never claim production-ready without tests. Hosts do not meter USD; document the budget and stop.
+6. Same skills serve Claude Code, Grok Build, Codex, Cursor, and Agent Plugins 1.0.

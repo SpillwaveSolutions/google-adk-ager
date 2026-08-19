@@ -1,0 +1,24 @@
+{
+  "name": "google-adk-ager-marketplace",
+  "description": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin) \u2014 LlmAgent (non-graph) and Workflow graph (ADK 2.0). Grok Build loads the Claude layout with zero config.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "google-adk-ager",
+      "source": ".",
+      "description": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin) \u2014 LlmAgent (non-graph) and Workflow graph (ADK 2.0).",
+      "version": "0.1.0",
+      "compatibility": {
+        "claude_plugin": true,
+        "zero_config": true
+      },
+      "depends_on": [
+        {
+          "plugin": "okf-agent-graph",
+          "repository": "https://github.com/SpillwaveSolutions/okf-agent-graph"
+        }
+      ],
+      "repository": "https://github.com/SpillwaveSolutions/google-adk-ager"
+    }
+  ]
+}

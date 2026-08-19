@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "google-adk-ager",
+  "version": "0.1.0",
+  "description": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin) \u2014 LlmAgent (non-graph) and Workflow graph (ADK 2.0).",
+  "author": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
+  "homepage": "https://github.com/SpillwaveSolutions/google-adk-ager",
+  "repository": "https://github.com/SpillwaveSolutions/google-adk-ager",
+  "license": "MIT",
+  "keywords": [
+    "ager",
+    "okf",
+    "google-adk",
+    "adk",
+    "gemini",
+    "python",
+    "typescript",
+    "go",
+    "java",
+    "kotlin",
+    "translator",
+    "claude-code",
+    "grok-build",
+    "codex",
+    "cursor",
+    "agent-plugins"
+  ]
+}

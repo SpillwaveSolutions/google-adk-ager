@@ -1,0 +1,48 @@
+{
+  "name": "google-adk-ager",
+  "version": "0.1.0",
+  "description": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin) \u2014 LlmAgent (non-graph) and Workflow graph (ADK 2.0).",
+  "author": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
+  "homepage": "https://github.com/SpillwaveSolutions/google-adk-ager",
+  "repository": "https://github.com/SpillwaveSolutions/google-adk-ager",
+  "license": "MIT",
+  "keywords": [
+    "ager",
+    "okf",
+    "google-adk",
+    "adk",
+    "gemini",
+    "python",
+    "typescript",
+    "go",
+    "java",
+    "kotlin",
+    "translator",
+    "claude-code",
+    "grok-build",
+    "codex",
+    "cursor",
+    "agent-plugins"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "google-adk-ager",
+    "shortDescription": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin) \u2014 LlmAgent (non-graph) and Workflow graph (ADK 2.0).",
+    "longDescription": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin) \u2014 LlmAgent (non-graph) and Workflow graph (ADK 2.0).",
+    "developerName": "Spillwave Solutions",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/SpillwaveSolutions/google-adk-ager",
+    "defaultPrompt": [
+      "Run /ager-to-google-adk on the AGER bundle in this workspace.",
+      "Compile the graph. Do not author a new AGER graph."
+    ],
+    "brandColor": "#4285F4"
+  }
+}
