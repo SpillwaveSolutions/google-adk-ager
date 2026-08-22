@@ -11,7 +11,7 @@
       "name": "google-adk-ager",
       "source": "./",
       "description": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin) \u2014 LlmAgent (non-graph) and Workflow graph (ADK 2.0).",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -34,7 +34,9 @@
         "grok-build",
         "codex",
         "cursor",
-        "agent-plugins"
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
       ],
       "category": "productivity"
     }

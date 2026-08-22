@@ -14,3 +14,7 @@ Command on Claude/Grok: `/ager-to-google-adk`
 Command on Codex: `$ager-to-google-adk`
 
 Depends on `okf-agent-graph` for author/validate. This plugin only compiles.
+
+## WikiTicket SDD
+
+Track work with the worklog plugin (`SpillwaveSolutions/wiki_ticket_sdd`). See [WORKLOG.md](WORKLOG.md).
